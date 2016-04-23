@@ -1,1 +1,5 @@
-# dummy
+fieldextras.o: fieldextras.cpp /usr/include/stdc-predef.h fieldextras.h
+
+/usr/include/stdc-predef.h:
+
+fieldextras.h:
