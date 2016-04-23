@@ -69,14 +69,14 @@ struct TexInfo	// tex info
 class Render
 {
 public:
-    Render::Render();
-    virtual Render::~Render();
+    Render();
+    virtual ~Render();
 
     void SetOffset(int xOff, int yOff);
-	
+
     void EndFrame();
     void BeginFrame();
-	
+
     /**
      *	Initializes OpenGL
      */
