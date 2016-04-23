@@ -1,1 +1,5 @@
-# dummy
+inputai.o: inputai.cpp /usr/include/stdc-predef.h inputai.h
+
+/usr/include/stdc-predef.h:
+
+inputai.h:
